@@ -7,7 +7,7 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 import pytest
-from road_algorithm import DecisionStrategy
+from decision_strategy import DecisionStrategy
 
 @pytest.fixture
 def sample_strategy():
@@ -42,22 +42,22 @@ def grades():
 
 def test_match_daily_maintenance(sample_strategy, grades):
     params = {"技术等": "高速", "路面类": "沥青", "PCI": 95, "RQI": 90, "RDI": 95, "SRI": 90, "PSSI": 81}
-    ds = DecisionStrategy(sample_strategy, grades)
-    rec = ds.make_decision(params)
+    ds = DecisionStrategy(sample_strategy)
+    rec = ds.make_decision(params, grades)
     assert rec is not None
     assert rec["comment"] == "日常养护"
 
 
 def test_match_seal(sample_strategy, grades):
     params = {"技术等": "高速", "路面类": "沥青", "PCI": 95, "RQI": 90, "RDI": 95, "SRI": 10, "PSSI": 81}
-    ds = DecisionStrategy(sample_strategy, grades)
-    rec = ds.make_decision(params)
+    ds = DecisionStrategy(sample_strategy)
+    rec = ds.make_decision(params, grades)
     assert rec is not None
     assert rec["comment"] == "封层"
 
 
 def test_no_match(sample_strategy, grades):
     params = {"技术等": "高速", "路面类": "沥青", "PCI": 10, "RQI": 5, "RDI": 5, "SRI": 5, "PSSI": 1}
-    ds = DecisionStrategy(sample_strategy, grades)
-    rec = ds.make_decision(params)
+    ds = DecisionStrategy(sample_strategy)
+    rec = ds.make_decision(params, grades)
     assert rec is None
