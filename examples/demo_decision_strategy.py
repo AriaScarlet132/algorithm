@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """示例: 使用 DecisionStrategy 进行养护策略决策"""
-from decision_strategy import DecisionStrategy
+from road_algorithm import DecisionStrategy
 
 strategy = {
     "name": "沥青路面维修工法",

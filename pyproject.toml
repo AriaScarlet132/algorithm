@@ -1,0 +1,19 @@
+[project]
+name = "road-algorithm"
+version = "0.1.0"
+description = "Road maintenance decision strategy"
+authors = [{name = "Aria"}]
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["road", "maintenance", "decision"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+addopts = "-q"

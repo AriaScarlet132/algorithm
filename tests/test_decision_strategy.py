@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
+import os, sys
+
+# 确保直接运行该文件时也能找到项目根目录包
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 import pytest
-from decision_strategy import DecisionStrategy
+from road_algorithm import DecisionStrategy
 
 @pytest.fixture
 def sample_strategy():
