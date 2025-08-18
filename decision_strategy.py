@@ -100,5 +100,3 @@ class DecisionStrategy:
             else:
                 return False
         return True
-
-# 示例与测试代码已迁移至 examples/demo_decision_strategy.py 和 tests/test_decision_strategy.py
