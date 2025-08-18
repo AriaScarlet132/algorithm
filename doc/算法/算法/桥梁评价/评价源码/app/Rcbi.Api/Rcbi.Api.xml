@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rcbi.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller">
+            <summary>
+            附属设施评估模型 V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.GetModelAfInfos(System.String)">
+            <summary>
+            获取附属设施信息V2
+            </summary>
+            <param name="task_no">任务编号</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.AddFacilitylist(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelAfFacilitylist})">
+            <summary>
+            新增附属设施清单【基础数据】 
+            </summary>
+            <param name="model">监测指标数据</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.addbridgetypeweight2(System.Collections.Generic.List{Rcbi.Entity.OpenApi.Modelbridgetypeweight})">
+            <summary>
+            新增附属设施权重信息2 【基础数据】 
+            </summary>
+            <param name="model">监测指标数据</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.AddFacilityCheckValue(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelAfFacilityCheckValue})">
+            <summary>
+            新增附属子设施检查评分明细【分析数据】
+            </summary>
+            <param name="model">监测指标数据</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.CreateTask(Rcbi.Entity.OpenApi.ModelResultMainRequest)">
+            <summary>
+            创建附属设施评估任务
+            </summary>
+            <param name="model">路面性能评估模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.AfevaV2Controller.StartTask(System.String)">
+            <summary>
+            开启附属设施评估任务
+            </summary>
+            <param name="task_no">任务编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller">
+            <summary>
+            机电系统评估模型  V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.GetModelJdInfos(System.String)">
+            <summary>
+            获取机电系统信息
+            </summary>
+            <param name="task_no">任务编号</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.AddMesDevicetypeImp(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesDevicetypeImp})">
+            <summary>
+             新增机电系统设备编码与重要度信息【基础数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.AddMesParameterMesystem(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesParameterMesystem})">
+            <summary>
+             新增机电总分系数信息表【基础数据】V2
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.AddMesCriteria(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesCriteria})">
+            <summary>
+             新增评价等级与分值对应关系表【基础数据】V2
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.AddMesEquipmentlist(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesEquipmentlist})">
+            <summary>
+             新增机电系统设备清单信息【基础数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.addMesCriteriaMesystem(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesCriteriaMesystem})">
+            <summary>
+             机电系统权重信息【基础数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.addMesCriteriaMidsystem(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesCriteriaMidsystem})">
+            <summary>
+             机电系统分系统权重信息【基础数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.addMesSystemtypeWeights(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesSystemtypeWeights})">
+            <summary>
+             机电系统评价指标权重信息【基础数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.AddMesDataFailure(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelMesDataFailure})">
+            <summary>
+            新增待评价项目的机电系统设备故障情况信息【分析数据】
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.CreateTask(Rcbi.Entity.OpenApi.ModelResultMainRequest)">
+            <summary>
+            创建附属设施评估任务
+            </summary>
+            <param name="model">路面性能评估模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.JdevaV2Controller.StartTask(System.String)">
+            <summary>
+            开启附属设施评估任务
+            </summary>
+            <param name="task_no">任务编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller">
+            <summary>
+             运营服务评估模型   V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.GetModelOpInfos(System.String)">
+            <summary>
+            获取运营服务信息
+            </summary>
+            <param name="task_no">任务编号</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpTunnelbasicinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTunnelbasicinfo})">
+            <summary>
+            新增隧道基础信息【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpCodata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpCodata})">
+            <summary>
+            新增CO一氧化碳指数业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpTeidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTeidata})">
+            <summary>
+            新增交牵引排堵TEI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpDtidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDtidata})">
+            <summary>
+            新增交通流量DTI线路业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpLrdata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpLrdata})">
+            <summary>
+            新增交通路面荷载LR业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpBidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpBidata})">
+            <summary>
+            新增亮度或照度BI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpMcidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpMcidata})">
+            <summary>
+            新增内业成本绩效MCI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpMbidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpMbidata})">
+            <summary>
+            新增内业报编制MBI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpMiidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpMiidata})">
+            <summary>
+            新增内业档案资料信息化MII业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpMssidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpMssidata})">
+            <summary>
+            新增内业管理制度MSSI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpPmdata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpPmdata})">
+            <summary>
+            新增可吸入颗粒物浓度PM2.5业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpRvdata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpRvdata})">
+             <summary>
+            新增安全事故率RV业务信息【分析数据】
+             </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddOpUcvidata(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpUcvidata})">
+            <summary>
+            新增用户满意度UCVI业务信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.CreateTask(Rcbi.Entity.OpenApi.ModelResultMainRequest)">
+            <summary>
+            创建路面性能评估任务
+            </summary>
+            <param name="model">路面性能评估模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.StartTask(System.String)">
+            <summary>
+            开启路面性能评估任务
+            </summary>
+            <param name="task_no">任务编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddBridgeBasicInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpBridgeBasicInfo})">
+            <summary>
+            8.2.新增桥梁基本信息（基础数据）
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddTrafficDriveSpeed(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTrafficDriveSpeed})">
+            <summary>
+            8.3.新增车辆行车速度数据(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddTrafficFlow(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTrafficFlow})">
+            <summary>
+            8.4.新增交通车流量数据(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddTrafficFenceInfluence(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTrafficFenceInfluence})">
+            <summary>
+            8.5.新增交通封闭期车流量(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddTrafficAccident(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTrafficAccident})">
+            <summary>
+            8.6.新增交通事故信息(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddDeviceMaterialComplete(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDeviceMaterialComplete})">
+            <summary>
+            8.7.新增应急设备和材料完备性信息(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddEmergencyResponse(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpEmergencyResponse})">
+            <summary>
+            8.8.新增救援响应信息(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddComplaintResponse(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpComplaintResponse})">
+            <summary>
+            8.9.新增用户投诉及时响应信息(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddValidComplaint(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpValidComplaint})">
+            <summary>
+            8.10.新增用户有责投诉和有效投诉（无责投诉）次数信息(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddReleaseInfoAccuracy(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpReleaseInfoAccuracy})">
+            <summary>
+            8.11.新增交通信息发布准确次数数据(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddReleaseInfoTimeliness(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpReleaseInfoTimeliness})">
+            <summary>
+            8.12.新增交通信息发布及时次数数据(待分析数据)
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddValidComplaintHandle(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpValidComplaintHandle})">
+            <summary>
+             8.13.新增有责投诉和有效投诉（无责投诉）完成数据(待分析数据)
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.GetBridgeModelOpResults(System.String)">
+            <summary>
+             8.15.获取运营服务评价结果
+            </summary>
+            <param name="models"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddWeightinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpevaWeightInfo})">
+            <summary>
+            新增运营服务评价指标权重信息表【基础数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelWeightinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpevaWeightInfo})">
+            <summary>
+            删除运营服务评价指标权重信息表【基础数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddCriteriaInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpCriteria})">
+            <summary>
+            新增评价等级与分值对应关系表【基础数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpCriteria(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpCriteria})">
+            <summary>
+            删除评价等级与分值对应关系表【基础数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataClean(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataClean})">
+            <summary>
+            新增待评价项目的保洁效果信息表【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataClean(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataClean})">
+            <summary>
+            删除待评价项目的保洁效果信息表【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataEffluent(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEffluent})">
+            <summary>
+            新增待评价项目的废水排放合格率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataEffluent(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEffluent})">
+            <summary>
+            删除待评价项目的废水排放合格率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataEri(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEri})">
+            <summary>
+            新增待评价项目的应急响应及时率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataEri(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEri})">
+            <summary>
+            删除待评价项目的应急响应及时率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataEs(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEs})">
+            <summary>
+            新增待评价项目的节能环保信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataEs(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataEs})">
+            <summary>
+            删除待评价项目的节能环保信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataK(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataK})">
+            <summary>
+            新增待评价项目的高峰期烟雾浓度信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataK(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataK})">
+            <summary>
+            删除待评价项目的高峰期烟雾浓度信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataNBI(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataNBI})">
+            <summary>
+            新增待评价项目的标线光度性能信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataNBI(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataNBI})">
+            <summary>
+            删除待评价项目的标线光度性能信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataSafety(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataSafety})">
+            <summary>
+            新增待评价项目的安全生产事故信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataSafety(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataSafety})">
+            <summary>
+            删除待评价项目的安全生产事故信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataSpeed(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataSpeed})">
+            <summary>
+            新增待评价项目的高峰期平均行驶速度信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataSpeed(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataSpeed})">
+            <summary>
+            删除待评价项目的安全生产事故信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpDataTraff(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataTraff})">
+            <summary>
+            新增待评价项目的通行影响率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.DeleteModelOpDataTraff(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpDataTraff})">
+            <summary>
+            删除待评价项目的通行影响率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpBidataQuery(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpBidataQuery2})">
+            <summary>
+            新增待评价项目的照明状况信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpTeidata2(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTeidata2})">
+            <summary>
+            待评价项目的牵引排堵及时率信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpLaneinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpLaneinfo})">
+            <summary>
+            车道线路基本业务信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OpevaV2Controller.AddModelOpLineinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpLineinfo})">
+            <summary>
+            新增隧道线路基本业务信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="T:Rcbi.Api.Controllers.OpenApi.OverallEvaluationV2Controller">
+            <summary>
+             总体评价接口   V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OverallEvaluationV2Controller.addOverallEvaluationTask(Rcbi.Entity.OpenApi.OverallEvaluation)">
+            <summary>
+            添加总体评价任务
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.OverallEvaluationV2Controller.getOverallEvaluationResult(System.String)">
+            <summary>
+            获取总体评价结果
+            </summary>
+            <param name="task_no"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller">
+            <summary>
+            土建结构评估模型  V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.GetModelAfInfos(System.String)">
+            <summary>
+            获取土建结构信息
+            </summary>
+            <param name="task_no">任务编号</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataStructurefacility(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataStructurefacility})">
+            <summary>
+            新增项目评价单元信息【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjModelRoadDamageType(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadDamageType})">
+            <summary>
+            待评价项目的损坏类型信息【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjModelRoadCheckUnitInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadCheckUnitInfo})">
+            <summary>
+            待评价项目的检测信息【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjModelTjStructureclassification(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjStructureclassification})">
+            <summary>
+            土建分类表【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataDefects(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataDefects})">
+            <summary>
+            新增项目结构缺陷信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataDeformation(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataDeformation})">
+            <summary>
+            新增项目收敛变形信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataDiffsedimentation(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataDiffsedimentation})">
+            <summary>
+            待评价项目的收敛变形差异信息表【分析数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataLeakage(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataLeakage})">
+            <summary>
+            待评价项目的平均渗水量记录信息表【分析数据】 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataModelRoadDataCheckvalue(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadDataCheckvalue})">
+            <summary>
+            待评价项目的路面平整度信息 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddModelTjStructuretypeweights(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjStructuretypeweights})">
+            <summary>
+            土建设施评价指标权重信息表 v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddTjDataSedimentation(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelTjDataSedimentation})">
+            <summary>
+            新增项目沉降信息【分析数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.GetModelRoadInfos(System.String)">
+            <summary>
+            获取路面性能信息
+            </summary>
+            <param name="task_no">任务编号</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddLmLaneInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadLaneInfo})">
+            <summary>
+            新增车道基本信息【基础数据】
+            </summary>
+            <param name="model">车道基本信息</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddLmLineInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadLineInfo})">
+            <summary>
+            新增线路基本信息【基础数据】
+            </summary>
+            <param name="model">线路基本信息</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddLmCheckUnitInfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadCheckUnitInfo})">
+            <summary>
+            新增路面检测单信息【基础数据】
+            </summary>
+            <param name="model">路面检测单信息</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddLmIRI(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadIRI})">
+            <summary>
+            新增监测指标数据【分析数据】
+            </summary>
+            <param name="model">监测指标数据</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.AddLmDamage(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelRoadDamage})">
+            <summary>
+            新增路面病害数据【分析数据】
+            </summary>
+            <param name="model">路面病害数据</param>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.CreateTask(Rcbi.Entity.OpenApi.ModelResultMainRequest)">
+            <summary>
+            创建附属设施评估任务
+            </summary>
+            <param name="model">路面性能评估模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApi.TjevaV2Controller.StartTask(System.String)">
+            <summary>
+            开启附属设施评估任务
+            </summary>
+            <param name="task_no">任务编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Rcbi.Api.Controllers.OpenApiV2.tunnelmodelInfoController">
+            <summary>
+             隧道信息   V2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApiV2.tunnelmodelInfoController.AddOpTunnelbasicinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpTunnelbasicinfo})">
+            <summary>
+            新增隧道基础信息【基础数据】
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApiV2.tunnelmodelInfoController.AddModelOpLineinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpLineinfo})">
+            <summary>
+            新增隧道线路基本业务信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Controllers.OpenApiV2.tunnelmodelInfoController.AddModelOpLaneinfo(System.Collections.Generic.List{Rcbi.Entity.OpenApi.ModelOpLaneinfo})">
+            <summary>
+            车道线路基本业务信息【基础数据】v2
+            </summary>
+        </member>
+        <member name="M:Rcbi.Api.Middleware.RCBIExceptionHandlerMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,Rcbi.Entity.Enums.OpenApiResultStatus,System.Exception,System.String[])">
+            <summary>
+            异常处理
+            </summary>
+            <param name="context"></param>
+            <param name="openApiResultStatus"></param>
+            <param name="exception"></param>
+            <param name="tags"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

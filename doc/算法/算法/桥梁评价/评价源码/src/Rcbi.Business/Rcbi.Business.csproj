@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="NPOI" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rcbi.AppMetrics\Rcbi.AppMetrics.csproj" />
+    <ProjectReference Include="..\Rcbi.AspNetCore\Rcbi.AspNetCore.csproj" />
+    <ProjectReference Include="..\Rcbi.Core\Rcbi.Core.csproj" />
+    <ProjectReference Include="..\Rcbi.Entity\Rcbi.Entity.csproj" />
+    <ProjectReference Include="..\Rcbi.Repository\Rcbi.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

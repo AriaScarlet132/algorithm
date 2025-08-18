@@ -1,0 +1,3 @@
+访问地址：http://127.0.0.1:15672
+账号：rabbit_tbmp
+密码：rabbit_tbmp

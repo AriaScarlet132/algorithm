@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\fb\pingjia</_PublishTargetUrl>
+    <History>True|2024-05-16T02:39:47.7745821Z;True|2024-05-14T15:03:32.1314401+08:00;True|2024-05-14T15:02:45.1822284+08:00;False|2023-09-05T12:42:17.5746661+08:00;True|2023-04-11T15:04:11.9968123+08:00;True|2023-03-30T10:22:00.1185909+08:00;True|2023-03-30T10:03:24.9914192+08:00;True|2023-02-17T13:31:09.0887954+08:00;True|2023-02-17T13:15:46.1859010+08:00;</History>
+  </PropertyGroup>
+</Project>

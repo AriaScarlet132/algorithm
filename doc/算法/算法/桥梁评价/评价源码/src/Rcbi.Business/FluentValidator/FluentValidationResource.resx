@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="email_error" xml:space="preserve">
+    <value>'{PropertyName}' 不是有效的电子邮件地址。</value>
+  </data>
+  <data name="equal_error" xml:space="preserve">
+    <value>'{PropertyName}' 应该和 '{ComparisonValue}' 相等。</value>
+  </data>
+  <data name="exact_length_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须是 {MaxLength} 字符长度，你已经输入了 {TotalLength} 字符。</value>
+  </data>
+  <data name="exclusivebetween_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须在 {From} 和 {To} (排除)之间， 你输入了 {Value}。</value>
+  </data>
+  <data name="greaterthanorequal_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须大于或等于 '{ComparisonValue}'。</value>
+  </data>
+  <data name="greaterthan_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须大于 '{ComparisonValue}'。</value>
+  </data>
+  <data name="inclusivebetween_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须在 {From} 和 {To} 之间， 你输入了 {Value}。</value>
+  </data>
+  <data name="length_error" xml:space="preserve">
+    <value>'{PropertyName}' 的长度必须在 {MinLength} 到 {MaxLength} 字符，您已经输入了 {TotalLength} 字符。</value>
+  </data>
+  <data name="lessthanorequal_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须小于或等于 '{ComparisonValue}'。</value>
+  </data>
+  <data name="lessthan_error" xml:space="preserve">
+    <value>'{PropertyName}' 必须小于 '{ComparisonValue}'。</value>
+  </data>
+  <data name="notempty_error" xml:space="preserve">
+    <value>请填写 '{PropertyName}'。</value>
+  </data>
+  <data name="notequal_error" xml:space="preserve">
+    <value>'{PropertyName}' 不能和 '{PropertyValue}' 相等。</value>
+  </data>
+  <data name="notnull_error" xml:space="preserve">
+    <value>'{PropertyName}' 不能为空。</value>
+  </data>
+  <data name="predicate_error" xml:space="preserve">
+    <value>指定的条件不符合 '{PropertyName}'。</value>
+  </data>
+  <data name="regex_error" xml:space="preserve">
+    <value>'{PropertyName}' 的格式不正确。</value>
+  </data>
+  <data name="ipaddress_error" xml:space="preserve">
+    <value>'{PropertyName}' 不是正确的IP地址。</value>
+  </data>
+  <data name="CreditCardError" xml:space="preserve">
+    <value>'{PropertyName}' 不是有效的信用卡号。</value>
+  </data>
+  <data name="scale_precision_error" xml:space="preserve">
+    <value>'{PropertyName}' 总位数不能超过 {expectedPrecision} 位，其中整数部分 {expectedScale} 位。您填写了 {digits} 位小数和 {actualScale} 位整数。</value>
+  </data>
+  <data name="UserExists" xml:space="preserve">
+    <value>该用户已存在</value>
+  </data>
+  <data name="InsertToDatabaseFail" xml:space="preserve">
+    <value>数据库插入失败</value>
+  </data>
+  <data name="UpdateToDatabaseFail" xml:space="preserve">
+    <value>数据库更新失败</value>
+  </data>
+  <data name="DeleteItemIsEmpty" xml:space="preserve">
+    <value>删除项为空</value>
+  </data>
+  <data name="DeleteFail" xml:space="preserve">
+    <value>删除数据失败，ID：{id}</value>
+  </data>
+  <data name="RoleCodeExists" xml:space="preserve">
+    <value>该角色编码已存在</value>
+  </data>
+  <data name="ProjectTunnelCode" xml:space="preserve">
+    <value>该项目编号和和区间隧道编号已存在</value>
+  </data>
+  <data name="PrTuPoMo" xml:space="preserve">
+    <value>该项目编码或区间隧道编号或测点类型或监测编号已存在</value>
+  </data>
+  <data name="TuTbNa" xml:space="preserve">
+    <value>该区间隧道编号或盾构机ID或编码已存在</value>
+  </data>
+  <data name="MenuCodeExists" xml:space="preserve">
+    <value>菜单编码已存在</value>
+  </data>
+  <data name="MenuParentIdEqualMenuId" xml:space="preserve">
+    <value>父级菜单不能选择为自己</value>
+  </data>
+  <data name="MonitorConfigExists" xml:space="preserve">
+    <value>用户已存在的项目设置</value>
+  </data>
+  <data name="ParameterCode" xml:space="preserve">
+    <value>参数编码</value>
+  </data>
+  <data name="ParameterName" xml:space="preserve">
+    <value>参数名称</value>
+  </data>
+  <data name="RingNumber" xml:space="preserve">
+    <value>环号（环）</value>
+  </data>
+  <data name="ImportEmpty" xml:space="preserve">
+    <value>导入数据为空</value>
+  </data>
+  <data name="DeptCodeExists" xml:space="preserve">
+    <value>部门编号已存在</value>
+  </data>
+  <data name="RingParaType" xml:space="preserve">
+    <value>参数类型</value>
+  </data>
+  <data name="ProjectSectionCode" xml:space="preserve">
+    <value>该项目下的区间编码已经存在</value>
+  </data>
+  <data name="PlanNodeDateInvalid" xml:space="preserve">
+    <value>该计划节点时间和其他节点时间存在重复</value>
+  </data>
+  <data name="PlanNodeRingNumberInvalid" xml:space="preserve">
+    <value>该计划节点推进计划环数不能大于下个节点环数</value>
+  </data>
+  <data name="PlanNodeDeleteInvalid" xml:space="preserve">
+    <value>该节点下已存在明细计划，不可删除</value>
+  </data>
+  <data name="NotExistsRowRecord" xml:space="preserve">
+    <value>数据库中不存在该条记录</value>
+  </data>
+  <data name="SystemError" xml:space="preserve">
+    <value>系统异常</value>
+  </data>
+  <data name="OrgCodeExists" xml:space="preserve">
+    <value>组织编码已存在</value>
+  </data>
+  <data name="RoleCodeOrNameRequired" xml:space="preserve">
+    <value>角色编码或名称不能为空</value>
+  </data>
+  <data name="GeneralContentExists" xml:space="preserve">
+    <value>该字典项目已存在</value>
+  </data>
+  <data name="PostParameterError" xml:space="preserve">
+    <value>提交参数错误</value>
+  </data>
+  <data name="ProjectCodeExists" xml:space="preserve">
+    <value>该项目编码已存在</value>
+  </data>
+  <data name="ProjectOrgExists" xml:space="preserve">
+    <value>当前项目已包括该构建单位</value>
+  </data>
+  <data name="ProjectPcTypeExists" xml:space="preserve">
+    <value>当前项目已包括该构件类型</value>
+  </data>
+  <data name="PcProcessMaterialExists" xml:space="preserve">
+    <value>当前项目已包括该材料</value>
+  </data>
+  <data name="PcPedestalCodeExists" xml:space="preserve">
+    <value>该台座编号已存在</value>
+  </data>
+  <data name="PcWarehouseCodeExists" xml:space="preserve">
+    <value>该仓库编号已存在</value>
+  </data>
+  <data name="UploadFail" xml:space="preserve">
+    <value>上传失败</value>
+  </data>
+  <data name="UploadFileExtDanger" xml:space="preserve">
+    <value>系统检测为危险文件，重新上传请联系系统维护人员。</value>
+  </data>
+  <data name="PcMoldCodeExists" xml:space="preserve">
+    <value>该模具编号已存在</value>
+  </data>
+  <data name="FaceRecoEquCodeExists" xml:space="preserve">
+    <value>该设备编码已存在</value>
+  </data>
+</root>

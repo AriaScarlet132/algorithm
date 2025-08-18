@@ -1,0 +1,1031 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Api\\Rcbi.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Api\\Rcbi.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Api\\Rcbi.Api.csproj",
+        "projectName": "Rcbi.Api",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Api\\Rcbi.Api.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\Rcbi.Framework.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\Rcbi.Framework.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\Rcbi.iisp.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\Rcbi.iisp.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Swagger\\Rcbi.Swagger.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Swagger\\Rcbi.Swagger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Com.Ctrip.Framework.Apollo.Configuration": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Exceptionless.AspNetCore": {
+              "target": "Package",
+              "version": "[4.2.1989, )"
+            },
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\Rcbi.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\Rcbi.Framework.csproj",
+        "projectName": "Rcbi.Framework",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\Rcbi.Framework.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Com.Ctrip.Framework.Apollo.Configuration": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\Rcbi.Iisp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\Rcbi.Iisp.csproj",
+        "projectName": "Rcbi.Iisp",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\Rcbi.Iisp.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\app\\Rcbi.iisp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\Rcbi.AppMetrics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\Rcbi.AppMetrics.csproj",
+        "projectName": "Rcbi.AppMetrics",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\Rcbi.AppMetrics.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "App.Metrics.Reporting.InfluxDB": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj",
+        "projectName": "Rcbi.AspNetCore",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\Rcbi.RegistryHost.ConsulRegistry.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\Rcbi.RegistryHost.ConsulRegistry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ZKWeb.System.Drawing": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj",
+        "projectName": "Rcbi.Business",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\Rcbi.AppMetrics.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AppMetrics\\Rcbi.AppMetrics.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj",
+        "projectName": "Rcbi.Core",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "DnsClient": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2019.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj",
+        "projectName": "Rcbi.Entity",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj",
+        "projectName": "Rcbi.Exceptionless",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\Rcbi.Exceptionless.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Exceptionless\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Exceptionless.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.3.2012, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj",
+        "projectName": "Rcbi.IdentityServer",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\Rcbi.IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.IdentityServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Business\\Rcbi.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "IdentityServer4.Contrib.RedisStore": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[2.4.6, )"
+            },
+            "Skoruba.IdentityServer4.Admin.BusinessLogic": {
+              "target": "Package",
+              "version": "[1.0.0-beta3, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework.Identity": {
+              "target": "Package",
+              "version": "[1.0.0-beta3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\Rcbi.RegistryHost.ConsulRegistry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\Rcbi.RegistryHost.ConsulRegistry.csproj",
+        "projectName": "Rcbi.RegistryHost.ConsulRegistry",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\Rcbi.RegistryHost.ConsulRegistry.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.RegistryHost.ConsulRegistry\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SemanticVersioning": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj",
+        "projectName": "Rcbi.Repository",
+        "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\Rcbi.Repository.csproj",
+        "packagesPath": "C:\\Users\\xuzj\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\BaiduNetdiskDownload\\NetDimension.NanUI.SDK.Runtime": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.AspNetCore\\Rcbi.AspNetCore.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Core\\Rcbi.Core.csproj"
+              },
+              "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj": {
+                "projectPath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Entity\\Rcbi.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

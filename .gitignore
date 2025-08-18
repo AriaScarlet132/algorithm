@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Temporary
+*.tmp
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Office temp
+~$*.docx
+
+# Data (adjust if needed)
+*.xlsx

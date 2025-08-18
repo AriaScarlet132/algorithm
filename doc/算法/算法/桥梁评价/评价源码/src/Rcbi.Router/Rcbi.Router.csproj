@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Rcbi.Router</AssemblyName>
+    <RootNamespace>Rcbi.Router</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="0.7.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rcbi.Core\Rcbi.Core.csproj" />
+    <ProjectReference Include="..\Rcbi.RegistryHost.ConsulRegistry\Rcbi.RegistryHost.ConsulRegistry.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Com.Ctrip.Framework.Apollo.Configuration" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rcbi.AspNetCore\Rcbi.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\Rcbi.Business\Rcbi.Business.csproj" />
+    <ProjectReference Include="..\..\src\Rcbi.Core\Rcbi.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rcbi.Entity\Rcbi.Entity.csproj" />
+    <ProjectReference Include="..\..\src\Rcbi.Exceptionless\Rcbi.Exceptionless.csproj" />
+    <ProjectReference Include="..\..\src\Rcbi.IdentityServer\Rcbi.IdentityServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Security\" />
+  </ItemGroup>
+
+</Project>

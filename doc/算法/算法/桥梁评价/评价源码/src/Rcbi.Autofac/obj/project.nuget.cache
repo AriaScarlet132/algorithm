@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "pfmm8W4cbKPYRjHGvPkORtzybpWokKtn+yFT8thx2on21rTSgFSuxNAXovRWBopb0xAwTXp3uhBdaNCfNZcuog==",
+  "success": true,
+  "projectFilePath": "D:\\temp\\11111\\qiaoliangpingjia\\qingjia\\src\\Rcbi.Autofac\\Rcbi.Autofac.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuzj\\.nuget\\packages\\autofac\\4.9.1\\autofac.4.9.1.nupkg.sha512",
+    "C:\\Users\\xuzj\\.nuget\\packages\\autofac.extensions.dependencyinjection\\4.4.0\\autofac.extensions.dependencyinjection.4.4.0.nupkg.sha512",
+    "C:\\Users\\xuzj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\xuzj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xuzj\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
