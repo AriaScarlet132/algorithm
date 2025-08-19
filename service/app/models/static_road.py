@@ -1,8 +1,14 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 from typing import List, Optional
 
 # 第三层：桩号构成（Pile Structure）
 class PileItem(BaseModel):
+    @field_validator('起点桩', '止点桩', '车道宽', '上面层厚', '中面层厚', '下面层厚', mode='before')
+    @classmethod
+    def float_fields_empty_str_to_none(cls, v):
+        if v == "" or v is None:
+            return None
+        return v
     ID: str
     起点桩: float
     止点桩: float

@@ -3,25 +3,26 @@ from service.app.models.static_road import RouteInfo
 from service.app.utils.redis_utils import get, save
 
 
-def register_static_road(road_data: RouteInfo) -> None:
+def register_static_road(road_data: dict) -> None:
     """
     注册静态道路信息到Redis
     :param road_data: 包含线路代码、路线名称和内容的字典
     """
-    save(f"{road_data.线路代码}_{road_data.路线名称}", road_data.model_dump_json(), expire=86400 * 365)
-    for lane in road_data.内容:
-        lane_no = lane["车道编号"]
-        lane_direction = lane["方向"]
-        lane_key = f"{road_data.线路代码}_{road_data.路线名称}_{lane_no}_{lane_direction}"
-        pile_map = {item["ID"]: item for item in lane["桩号构成"]}
-        save(lane_key, json.dumps(pile_map), expire=86400 * 365)
+    route_info = RouteInfo(**road_data)
+    save(f"{route_info.线路代码}_{route_info.路线名称}", route_info.model_dump_json(), expire=86400 * 365)
+    for lane in route_info.内容:
+        lane_no = lane.车道编号
+        lane_direction = lane.方向
+        lane_key = f"{route_info.线路代码}_{route_info.路线名称}_{lane_no}_{lane_direction}"
+        pile_map = {item.ID: item.model_dump() for item in lane.桩号构成}
+        save(lane_key, json.dumps(pile_map, ensure_ascii=False), expire=86400 * 365)
 
     
 def register_strategy(strategy_data: dict) -> None:
     road_type = strategy_data.get("road_type", "")
     if not road_type:
         raise ValueError("道路类型不能为空")
-    save(f"road_type", json.dumps(strategy_data), expire=86400 * 365)
+    save(f"{road_type}", json.dumps(strategy_data), expire=86400 * 365)
 
 
 def register_grades(grades: list) -> None:
@@ -40,8 +41,14 @@ def get_static_road(线路代码: str, 路线名称: str) -> RouteInfo:
     :return: RouteInfo对象
     """
     route_key = f"{线路代码}_{路线名称}"
-    route_info = RouteInfo(**json.loads(get(route_key)))
-    return route_info
+    route_info = get(route_key)
+    if not route_info:
+        return None
+    try:
+        route_info = json.loads(route_info)
+        return RouteInfo(**route_info)
+    except json.JSONDecodeError:
+        raise ValueError(f"无法解析静态道路信息: {route_key}")
 
 
 def get_grades() -> list:

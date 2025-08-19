@@ -20,4 +20,4 @@ def get(key: str) -> str:
     """
     redis_client = get_redis()
     value = redis_client.get(key)
-    return value.decode('utf-8') if value else None
+    return value if value else None

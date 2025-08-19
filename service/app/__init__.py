@@ -4,14 +4,22 @@ from .core.config import get_settings
 from .api.routes import register_routes
 from .core.redis_client import init_redis
 
+import logging
+logging.basicConfig(
+    level=logging.INFO,  # 或 DEBUG
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s"
+)
 
 def create_app() -> Flask:
     settings = get_settings()
     app = Flask(__name__)
+
+    app.config['JSON_SORT_KEYS'] = False
+
     app.config.update(
         ENV=settings.env,
         DEBUG=settings.debug,
-        JSON_AS_ASCII=False
+        JSON_AS_ASCII=False,
     )
     # 初始化 Redis (失败不阻塞应用启动)
     try:
@@ -31,8 +39,8 @@ def create_app() -> Flask:
             "error": "服务器异常",
             "detail": str(e),
         }
-        # if app.config.get("DEBUG"):
-            # response["trace"] = traceback.format_exc()
+        if app.config.get("DEBUG"):
+            response["trace"] = traceback.format_exc()
         return jsonify(response), 500
 
     return app
