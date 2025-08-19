@@ -100,10 +100,10 @@ class DecisionStrategy:
             if indicator not in params:
                 return False
             
-            # 如果参数里对应指标的值不合法 直接返回False
+            # 如果参数里对应指标的值不合法 视为100
             value = params[indicator]
             if value == "" or value is None:
-                return False
+                value = 100
             
             # 如果没有该指标的阈值 不作判断
             threshold = self._get_grade_by_indicator(road_level, indicator, grades)
