@@ -31,7 +31,6 @@ def decision():
             "内容": result_list
         }
         logger.info("Decision response: %s", resp)
-        logger.info("Decision response JSON: %s", jsonify(resp).get_data(as_text=True))
         
         # 使用自定义 JSON 序列化保持字典顺序
         json_str = json.dumps(resp, ensure_ascii=False, separators=(',', ':'))

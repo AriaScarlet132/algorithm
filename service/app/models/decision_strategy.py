@@ -31,10 +31,35 @@ class DecisionStrategy:
                 recommendations = rule.get("recommendation", [])
                 for rec in recommendations:
                     if rec["road_level"] == "all" or rec["road_level"] == "全部":
-                        return rec
+                        if self._secondary_decision(rec, params):
+                            return rec
                     if road_level_str in rec["road_level"]:
-                        return rec
+                        if self._secondary_decision(rec, params):
+                            return rec
         return None
+    
+    def _secondary_decision(self, rec: dict, params: dict):
+        if "condition" in rec and rec["condition"]:
+            lower_params = {k.lower(): v for k, v in params.items()}
+            lower_rec = {k.lower(): v for k, v in rec.items() if k != "condition"}
+            for key in lower_params:
+                if key in lower_rec:
+                    value = float(lower_params[key] if lower_params[key] not in ["", None] else -1)
+                    standard_value = float(lower_rec[key] if lower_rec[key] not in ["", None] else -1)
+                    # 然后根据condition来判断
+                    condition = rec["condition"]
+                    if condition == "大于":
+                        return value > standard_value
+                    elif condition == "大于等于":
+                        return value >= standard_value
+                    elif condition == "小于等于":
+                        return value <= standard_value
+                    elif condition == "小于":
+                        return value < standard_value
+                    elif condition == "等于":
+                        return value == standard_value
+        else:
+            return True
     
     # 根据技术等级获取道路等级
     def _get_road_level(self, tech_level: str) -> int:
