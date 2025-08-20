@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: road-algorithm-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --requirepass 111111
+    volumes:
+      - redis_data:/data
+
+  app:
+    build: .
+    container_name: road-algorithm-app
+    restart: unless-stopped
+    ports:
+      - "8100:8100"
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - APP_PORT=8100
+      - REDIS_URL=redis://:111111@redis:6379/0
+      - REDIS_PASSWORD=111111
+    depends_on:
+      - redis
+    volumes:
+      - ./logs:/app/logs
+
+volumes:
+  redis_data:
